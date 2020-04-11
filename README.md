@@ -1,10 +1,17 @@
-# mockapp
+# Mockapp
 
-A new Flutter project.
+A new Flutter app that utilizes REST API from https://jsonplaceholder.typicode.com
+An Example program that helps experiment with new libraries in Flutter
 
-## Getting Started
+### Features
 
-This project is a starting point for a Flutter application.
+- Uses a mock API to fetch data https://jsonplaceholder.typicode.com
+- Material UI (including icons)
+- Contains Users, Albums, To-Do's
+- User has many posts
+- Albums has many photos
+
+#### Resources for getting Started
 
 A few resources to get you started if this is your first Flutter project:
 
