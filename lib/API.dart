@@ -8,4 +8,9 @@ class API {
     var url = baseUrl + "/users";
     return http.get(url);
   }
+
+  static Future getAlbums() {
+    var url = baseUrl + "/albums";
+    return http.get(url);
+  }
 }

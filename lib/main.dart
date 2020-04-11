@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mockapp/users/main.dart';
+import 'package:mockapp/albums/main.dart';
 
 void main() => runApp(MyApp());
 
@@ -46,7 +47,7 @@ class _MainPageState extends State<MainPage> {
         child = UserPage();
         break;
       case 1:
-        child = UserPage();
+        child = AlbumPage();
         break;
       case 2:
         child = UserPage();
