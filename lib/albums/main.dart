@@ -37,9 +37,16 @@ class _AlbumPageState extends State<AlbumPage> {
 
     listGrid(numbers) {
       return Center(
-        // padding: const EdgeInsets.all(8),
-        child: Text('Album $numbers'),
-        // color: Colors.teal[100],
+        child: Card(
+          child: InkWell(
+            splashColor: Colors.blue.withAlpha(30),
+            child: Container(
+              width: 300,
+              height: 300,
+              color: Colors.teal,
+            ),
+          )
+        )
       );
     }
 
