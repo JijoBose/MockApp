@@ -13,4 +13,9 @@ class API {
     var url = baseUrl + "/albums";
     return http.get(url);
   }
+
+  static Future getToDos() {
+    var url = baseUrl + "/todos";
+    return http.get(url);
+  }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mockapp/users/main.dart';
 import 'package:mockapp/albums/main.dart';
+import 'package:mockapp/todos/main.dart';
 
 void main() => runApp(MyApp());
 
@@ -50,7 +51,7 @@ class _MainPageState extends State<MainPage> {
         child = AlbumPage();
         break;
       case 2:
-        child = UserPage();
+        child = TodoPage();
         break;
     }
     return Scaffold(
