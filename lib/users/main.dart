@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:mockapp/API.dart';
 import 'package:mockapp/models/User.dart';
+import 'package:mockapp/users/userDetail.dart';
 import 'package:flutter/material.dart';
 
 class UserPage extends StatefulWidget {
@@ -44,6 +45,12 @@ class _UserPageState extends State<UserPage> {
         subtitle: Text(data.email),
         trailing: Icon(Icons.keyboard_arrow_right),
         selected: true,
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => UserDetailScreen(user: data)),
+          );
+        },
       );
     }
 
